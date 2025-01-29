@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:bloc/bloc.dart';
-import 'package:e_commerce/domain/data/repository/user/product_repositories.dart';
+import 'package:e_commerce/domain/data/repository/product/product_repositories.dart';
 import 'package:e_commerce/domain/di/service_locator.dart';
 import 'package:meta/meta.dart';
 import '../../../../domain/model/product_model.dart';

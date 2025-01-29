@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:e_commerce/domain/model/product_model.dart';
 
-import '../../remote/user/product_api.dart';
+import '../../remote/product/product_api.dart';
 
 class ProductRepository {
   final ApiService _apiService;

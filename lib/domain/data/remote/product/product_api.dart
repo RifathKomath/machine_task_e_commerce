@@ -13,7 +13,7 @@ class ApiService {
   // Get product//
   Future<List<ProductModel>> fetchProduct() async {
     try {
-      final response = await _dioClient.get(ApiUrl.userEndpoint);
+      final response = await _dioClient.get(ApiUrl.endPoint);
       return (response.data as List)
           .map((json) => ProductModel.fromJson(json))
           .toList();

@@ -1,8 +1,8 @@
 import 'package:get_it/get_it.dart';
 
 import '../../core/network/dio_client.dart';
-import '../data/remote/user/product_api.dart';
-import '../data/repository/user/product_repositories.dart';
+import '../data/remote/product/product_api.dart';
+import '../data/repository/product/product_repositories.dart';
 
 final GetIt getIt = GetIt.instance;
 
